@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Supervision Réseau</title>
+
 
         <nav>
         <a href="#serveurs">Serveurs</a>
@@ -14,6 +14,9 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
+    
+    <input type="text" id="recherche" placeholder="Rechercher un serveur..." />
+    <a class="lien" id="lien" href="#resultat-recherche">home</a>
 
         <div class="box">
             <div>
@@ -46,11 +49,807 @@
             </div>
         </div>
 
-        <div id="details">
+        <div id="details" hidden>
             <a>Information</a>
+            <button id="bt">Details</button>
         </div>
 
-        <button id="details">Details</button>
+        <div id="details1">
+            <button id="bt1">Details</button>
+        </div>
+
+        <div>
+            <div class="reference-layout__body">
+            <section class="content-section" aria-labelledby="exemple_interactif">
+    <!--lit-part c5EHp4HQ41U=--><!--lit-node 0--><h2 id="exemple_interactif" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#exemple_interactif">Exemple interactif</a></h2><!--/lit-part-->
+    <interactive-example name="Démonstration CSS&amp;nbsp;: border-spacing"><template shadowrootmode="open"><!---->
+        <div class="template-choices" aria-labelledby="id-0vtyul5j9fs">
+          <header>
+            <h4 id="id-0vtyul5j9fs"><!--?lit$551644485$-->Démonstration CSS&nbsp;: border-spacing</h4>
+            <mdn-button id="reset" variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-8tkm7538ita" disabled="" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-8tkm7538ita"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Reset</mdn-button>
+          </header>
+          <ul class="choice-wrapper" aria-label="Value select">
+            <!--?lit$551644485$--><!---->
+                <li class="choice">
+                  <mdn-play-editor language="css" minimal="true" data-index="0"><template shadowrootmode="open"><!----><div class="editor minimal"><div class="cm-editor ͼ1 ͼ2 ͼ4"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content" role="textbox" aria-multiline="true" data-language="css"><div class="cm-line"><span class="ͼi">border-spacing</span>: 0;</div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms; animation-name: cm-blink2;"><div class="cm-cursor cm-cursor-primary" style="left: 12px; top: 30.0938px; height: 21px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"><div class="cm-selectionBackground" style="left: 12px; top: 30.0938px; width: 164.172px; height: 21px;"></div></div></div></div></div></template></mdn-play-editor>
+                </li>
+              <!----><!---->
+                <li class="choice selected">
+                  <mdn-play-editor language="css" minimal="true" data-index="1"><template shadowrootmode="open"><!----><div class="editor minimal"><div class="cm-editor ͼ1 ͼ2 ͼ4"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content" role="textbox" aria-multiline="true" data-language="css"><div class="cm-line"><span class="ͼi">border-spacing</span>: 5<span class="ͼj">px</span>;</div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms; animation-name: cm-blink2;"><div class="cm-cursor cm-cursor-primary" style="left: 12px; top: 30.0938px; height: 21px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"><div class="cm-selectionBackground" style="left: 12px; top: 30.0938px; width: 182.438px; height: 21px;"></div></div></div></div></div></template></mdn-play-editor>
+                </li>
+              <!----><!---->
+                <li class="choice">
+                  <mdn-play-editor language="css" minimal="true" data-index="2"><template shadowrootmode="open"><!----><div class="editor minimal"><div class="cm-editor ͼ1 ͼ2 ͼ4"><div class="cm-announced" aria-live="polite"></div><div tabindex="-1" class="cm-scroller"><div spellcheck="false" autocorrect="off" autocapitalize="off" writingsuggestions="false" translate="no" contenteditable="true" style="tab-size: 4;" class="cm-content" role="textbox" aria-multiline="true" data-language="css"><div class="cm-line"><span class="ͼi">border-spacing</span>: 5<span class="ͼj">px</span> 1<span class="ͼi">rem</span>;</div></div><div class="cm-layer cm-layer-above cm-cursorLayer" aria-hidden="true" style="z-index: 150; animation-duration: 1200ms;"><div class="cm-cursor cm-cursor-primary" style="left: 12px; top: 30.0938px; height: 21px;"></div></div><div class="cm-layer cm-selectionLayer" aria-hidden="true" style="z-index: -2;"></div></div></div></div></template></mdn-play-editor>
+                </li>
+              <!---->
+          </ul>
+          <div class="output-wrapper">
+            <mdn-play-controller run-on-start=""><template shadowrootmode="open"><!---->
+      <slot></slot>
+    </template>
+              <mdn-play-runner defaults="ix-choice" sandbox="allow-modals"><template shadowrootmode="open"><!---->
+        <iframe title="runner" aria-live="polite" src="https://2a00ec0a-b775-4fb8-bff2-16bb89167b1b.mdnplay.dev/runner.html?uuid=2a00ec0a-b775-4fb8-bff2-16bb89167b1b&amp;state=lZLBbsIwDIZfJfJpkygdIDQp7XrhNXIJsaGZ3KRKUq0T4t2nlMJ2AKTdLPv%2FvlhWTtCmjkFCHckk650wrGP8UIB00AOngkbd9UwKhMV77UY5Ieqk90w3NgXtos26QjNf0RkpiKkjl2Y0w2Guco3NjpgHJrFaruoy4YPZ%2Bs%2BsLm%2BKR7L1E9n6v7LNE9nmvqwupxM1ytXlfOpGOViAiREkXO53yskvi6mVYrUN1FW5Mc0K1t9%2BSFIc7EhYKXdWTrmEF2bvA1KQYtuPInq2WP12C%2BPZBylMsF30TqDHI4U9DzSFeo1o3VGKt%2BX7%2FOR5Wuwz7xUp7VpvDb0omHWx1%2BYCVApeYXH9Ejlux8JMcVhAaqkjkMD22CY4%2FwA%3D" sandbox="allow-scripts allow-same-origin allow-forms allow-modals"></iframe>
+      </template></mdn-play-runner>
+            </mdn-play-controller>
+          </div>
+        </div>
+      </template></interactive-example>
+<mdn-code-example hidden="" class="brush: css interactive-example-choice notranslate"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->css</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-gtufy18xl8u" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-gtufy18xl8u"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$-->
+        </div>
+        <pre class="brush: css interactive-example-choice notranslate"><code><!--?lit$551644485$--><span class="token property">border-spacing</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<mdn-code-example hidden="" class="brush: css interactive-example-choice notranslate"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->css</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-ynffcfmjyud" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-ynffcfmjyud"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$-->
+        </div>
+        <pre class="brush: css interactive-example-choice notranslate"><code><!--?lit$551644485$--><span class="token property">border-spacing</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<mdn-code-example hidden="" class="brush: css interactive-example-choice notranslate"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->css</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-w4z4gofbs1" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-w4z4gofbs1"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$-->
+        </div>
+        <pre class="brush: css interactive-example-choice notranslate"><code><!--?lit$551644485$--><span class="token property">border-spacing</span><span class="token punctuation">:</span> 5px 1rem<span class="token punctuation">;</span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<mdn-code-example hidden="" class="brush: html interactive-example notranslate"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->html</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-kdj8zzm5ek" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-kdj8zzm5ek"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$-->
+        </div>
+        <pre class="brush: html interactive-example notranslate"><code><!--?lit$551644485$--><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>default-example<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>default-example<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transition-all<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>example-element<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Cellule 1.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Cellule 1.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Cellule 2.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Cellule 2.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Cellule 3.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Cellule 3.2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<mdn-code-example hidden="" class="brush: css interactive-example notranslate"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->css</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-7mljjxiewvq" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-7mljjxiewvq"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$-->
+        </div>
+        <pre class="brush: css interactive-example notranslate"><code><!--?lit$551644485$--><span class="token selector">table</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 15rem<span class="token punctuation">;</span>
+  <span class="token property">table-layout</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">td</span> <span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 5px solid<span class="token punctuation">;</span>
+  <span class="token property">border-color</span><span class="token punctuation">:</span> crimson dodgerblue<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0.75rem<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+  </section><section class="content-section" aria-labelledby="syntaxe">
+    <!--lit-part IeaFsW7Cd2Y=--><!--lit-node 0--><h2 id="syntaxe" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#syntaxe">Syntaxe</a></h2><!--/lit-part-->
+    <mdn-code-example class="brush: css notranslate"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->css</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-s3dr4o34pib" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-s3dr4o34pib"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$-->
+        </div>
+        <pre class="brush: css notranslate"><code><!--?lit$551644485$--><span class="token comment">/* Caleur de type &lt;length&gt; */</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> 2px<span class="token punctuation">;</span>
+
+<span class="token comment">/* longeur horizontale | longeur verticale */</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> 1cm 2em<span class="token punctuation">;</span>
+
+<span class="token comment">/* Valeurs globales */</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> inherit<span class="token punctuation">;</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> initial<span class="token punctuation">;</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> revert<span class="token punctuation">;</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> revert-layer<span class="token punctuation">;</span>
+<span class="token property">border-spacing</span><span class="token punctuation">:</span> unset<span class="token punctuation">;</span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<p>La propriété <code>border-spacing</code> peut être définie avec une ou deux valeurs.</p>
+<ul>
+<li>Lorsque <strong>une</strong> valeur <code>&lt;length&gt;</code> est indiquée, elle définit à la fois l'espacement horizontal et vertical entre les cellules.</li>
+<li>Lorsque <strong>deux</strong> valeurs <code>&lt;length&gt;</code> sont indiquées, la première valeur définit l'espacement horizontal entre les cellules (c'est-à-dire l'espace entre les cellules des <em>colonnes</em> adjacentes), et la seconde valeur définit l'espacement vertical entre les cellules (c'est-à-dire l'espace entre les cellules des <em>lignes</em> adjacentes).</li>
+</ul>
+  </section><section class="content-section" aria-labelledby="valeurs">
+    <!--lit-part BDZ1mG0Ygg4=--><!--lit-node 0--><h3 id="valeurs" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#valeurs">Valeurs</a></h3><!--/lit-part-->
+    <dl>
+<dt id="length"><a href="/fr/docs/Web/CSS/Reference/Values/length"><code>&lt;length&gt;</code></a></dt>
+<dd>
+<p>La taille de l'espacement en tant que valeur fixe.</p>
+</dd>
+</dl>
+  </section><section class="content-section" aria-labelledby="définition_formelle">
+    <!--lit-part ZCGsXMg3jEA=--><!--lit-node 0--><h2 id="définition_formelle" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#définition_formelle">Définition formelle</a></h2><!--/lit-part-->
+    <figure class="table-container"><table class="properties"><tbody><tr><th scope="row"><a href="/fr/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valeur initiale</a></th><td><code>0</code></td></tr><tr><th scope="row">Applicabilité</th><td>des éléments <code>table</code> and <code>inline-table</code></td></tr><tr><th scope="row"><a href="/fr/docs/Web/CSS/Guides/Cascade/Inheritance">Héritée</a></th><td>oui</td></tr><tr><th scope="row"><a href="/fr/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valeur calculée</a></th><td>deux longueurs absolues</td></tr><tr><th scope="row"><a href="/fr/docs/Web/CSS/Guides/Animations/Animatable_properties">Type d'animation</a></th><td>discrète</td></tr></tbody></table></figure>
+  </section><section class="content-section" aria-labelledby="syntaxe_formelle">
+    <!--lit-part BwL5Ar6XIaI=--><!--lit-node 0--><h2 id="syntaxe_formelle" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#syntaxe_formelle">Syntaxe formelle</a></h2><!--/lit-part-->
+    <pre class="notranslate css-formal-syntax"><span class="token property" id="border-spacing">border-spacing = </span><br>  <a href="/fr/docs/Web/CSS/Reference/Values/length"><span class="token property">&lt;length&gt;</span></a><a href="/fr/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#curly_braces" title="Curly braces: encloses two integers defining the minimal and maximal numbers of occurrences of the entity, or a single integer defining the exact number required">{1,2}</a>  <br></pre>
+<footer>Cette syntaxe reflète le dernier standard selon <a href="https://drafts.csswg.org/css-tables-3/" class="external" target="_blank">CSS Table Module Level 3</a>. Tous les navigateurs n'ont peut-être pas implémenté toutes les parties. Voir la <a href="#compatibilité_des_navigateurs">Compatibilité des navigateurs</a> pour plus d'informations sur la prise en charge.</footer>
+  </section><section class="content-section" aria-labelledby="exemples">
+    <!--lit-part 9uS8OyoGGWc=--><!--lit-node 0--><h2 id="exemples" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#exemples">Exemples</a></h2><!--/lit-part-->
+    <!--?-->
+  </section><section class="content-section" aria-labelledby="espacer_et_ajouter_une_marge_aux_cellules_de_tableau">
+    <!--lit-part mgHwKuX2XTM=--><!--lit-node 0--><h3 id="espacer_et_ajouter_une_marge_aux_cellules_de_tableau" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#espacer_et_ajouter_une_marge_aux_cellules_de_tableau">Espacer et ajouter une marge aux cellules de tableau</a></h3><!--/lit-part-->
+    <p>Cet exemple applique un espacement de <code>.5em</code> verticalement et de <code>1em</code> horizontalement entre les cellules d'un tableau. Remarquez que, sur les bords extérieurs, les valeurs de <code>padding</code> du tableau s'ajoutent aux valeurs de <code>border-spacing</code>.</p>
+<h4 id="html">HTML</h4>
+<mdn-code-example class="brush: html notranslate live-sample---espacer_et_ajouter_une_marge_aux_cellules_de_tableau"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->html</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-vvv94sshqa7" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-vvv94sshqa7"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$--><mdn-button variant="secondary" target="_blank" rel="opener" href="https://developer.mozilla.org/en-US/play?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D&amp;srcPrefix=%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%2F" aria-label="Exécutez l'exemple dans MDN Playground (ouvre un nouvel onglet)" title="Exécutez l'exemple dans MDN Playground (ouvre un nouvel onglet)"><template shadowrootmode="open"><!---->
+        <a class="button" part="button" href="https://developer.mozilla.org/en-US/play?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D&amp;srcPrefix=%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%2F" target="_blank" rel="opener" aria-labelledby="label-t02mpxzffv" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-t02mpxzffv"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </a>
+      </template><!--?lit$551644485$-->Exécuter</mdn-button>
+        </div>
+        <pre class="brush: html notranslate live-sample---espacer_et_ajouter_une_marge_aux_cellules_de_tableau"><code><!--?lit$551644485$--><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>6<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>7<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>8<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>9<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<h4 id="css">CSS</h4>
+<mdn-code-example class="brush: css notranslate live-sample---espacer_et_ajouter_une_marge_aux_cellules_de_tableau"><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <span class="language-name"><!--?lit$551644485$-->css</span>
+          <mdn-copy-button variant="secondary"><template shadowrootmode="open"><!----><mdn-button variant="secondary"><template shadowrootmode="open"><!---->
+        <button class="button" part="button" aria-labelledby="label-4p5l28fdo72" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-4p5l28fdo72"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </button>
+      </template><!--?lit$551644485$-->Copy</mdn-button></template></mdn-copy-button>
+          <!--?lit$551644485$--><mdn-button variant="secondary" target="_blank" rel="opener" href="https://developer.mozilla.org/en-US/play?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D&amp;srcPrefix=%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%2F" aria-label="Exécutez l'exemple dans MDN Playground (ouvre un nouvel onglet)" title="Exécutez l'exemple dans MDN Playground (ouvre un nouvel onglet)"><template shadowrootmode="open"><!---->
+        <a class="button" part="button" href="https://developer.mozilla.org/en-US/play?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D&amp;srcPrefix=%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%2F" target="_blank" rel="opener" aria-labelledby="label-taad9m9l1ri" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-taad9m9l1ri"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </a>
+      </template><!--?lit$551644485$-->Exécuter</mdn-button>
+        </div>
+        <pre class="brush: css notranslate live-sample---espacer_et_ajouter_une_marge_aux_cellules_de_tableau"><code><!--?lit$551644485$--><span class="token selector">table</span> <span class="token punctuation">{</span>
+  <span class="token property">border-spacing</span><span class="token punctuation">:</span> 1em 0.5em<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0 2em 1em 0<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid orange<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">td</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 1.5em<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 1.5em<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #d2d2d2<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">vertical-align</span><span class="token punctuation">:</span> middle<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+    </template></mdn-code-example>
+<h4 id="résultat">Résultat</h4>
+<mdn-live-sample-result><template shadowrootmode="open"><!---->
+      <div class="code-example">
+        <div class="example-header">
+          <!--?lit$551644485$--><mdn-button variant="secondary" target="_blank" rel="opener" href="https://developer.mozilla.org/en-US/play?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D&amp;srcPrefix=%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%2F" aria-label="Exécutez l'exemple dans MDN Playground (ouvre un nouvel onglet)" title="Exécutez l'exemple dans MDN Playground (ouvre un nouvel onglet)"><template shadowrootmode="open"><!---->
+        <a class="button" part="button" href="https://developer.mozilla.org/en-US/play?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D&amp;srcPrefix=%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%2F" target="_blank" rel="opener" aria-labelledby="label-y33sgx88b4b" data-variant="secondary">
+          <!--?lit$551644485$--><!----><!----><!---->
+    <span class="label" part="label" id="label-y33sgx88b4b"><!--?lit$551644485$--><slot></slot></span>
+  <!---->
+        </a>
+      </template><!--?lit$551644485$-->Exécuter</mdn-button>
+        </div>
+        <mdn-play-runner permalink="" style="height:200px;"><template shadowrootmode="open"><!---->
+        <iframe title="runner" aria-live="polite" src="https://d0d85f121c90cadf361465fe69589dc63443d375.mdnplay.dev/fr/docs/Web/CSS/Reference/Properties/border-spacing/runner.html?uuid=d0d85f121c90cadf361465fe69589dc63443d375&amp;state=jZDNTsMwEIRfZbVcU9IUyo9j9UlycbKrxGA7kbNAUdV3R06bUggH5Mv4G8%2Bs1gfsxDtUqMXUjndVANBS9%2FQ5yXSJZ5U07QqdC%2F0gmwW5uyI6vxT8rrpfBLcL8vC%2FqsdF8GlBnv%2Bq0vm8rM7nH8AMm3FEhROAQ3pX95E4rsbBNDa0Cgr2sL7dsi%2BTOxiiCa9hw%2F5klt8xBcWwh7F3lqCPJrRcVuFYhSoIneo%2FLEmnoLg0dmzbTq5JbZrXNvZvgRTc0CadiQvvZWWcbYOChoNwnPA7R7GNcbPlLZE7z8UMX9J%2BmKF07BkVujQOj18%3D" sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-downloads"></iframe>
+      </template></mdn-play-runner>
+      </div>
+    </template></mdn-live-sample-result>
+  </section><section class="content-section" aria-labelledby="spécifications">
+    <!--lit-part P9C//X5HiM4=--><!--lit-node 0--><h2 id="spécifications" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#spécifications">Spécifications</a></h2><!--/lit-part-->
+    <!--lit-part lzPdEGUoFG8=--><table>
+    <thead>
+      <tr>
+        <th scope="col"><!--lit-part-->Specification<!--/lit-part--></th>
+      </tr>
+    </thead>
+    <tbody>
+      <!--lit-part--><!--lit-part--><!--lit-part a/3Tq0vckuA=--><tr>
+              <td><!--lit-part 7GI82/RZJBE=--><!--lit-node 0--><a class="external" href="https://drafts.csswg.org/css2/#separated-borders" rel="noopener" target="_blank"><!--lit-part--><!--lit-part BRUAAAUVAAA=--><!--lit-part-->Cascading Style Sheets Level 2<!--/lit-part--><!--?--><!--/lit-part--><!--lit-part--><!--/lit-part--><!--lit-part BIKGC1k/hws=--><br><!--/lit-part--><!--lit-part--><!--/lit-part--><!--lit-part hrUCAIW1AgA=--># <!--lit-part-->separated-borders<!--/lit-part--><!--?--><!--/lit-part--><!--/lit-part--></a><!--/lit-part--></td>
+            </tr><!--/lit-part--><!--/lit-part--><!--/lit-part-->
+    </tbody>
+  </table><!--/lit-part-->
+  </section><section class="content-section" aria-labelledby="compatibilité_des_navigateurs">
+    <!--lit-part bcdkC9HQelo=--><!--lit-node 0--><h2 id="compatibilité_des_navigateurs" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#compatibilité_des_navigateurs">Compatibilité des navigateurs</a></h2><!--/lit-part-->
+    <mdn-compat-table-lazy locale="en-US" query="css.properties.border-spacing"><template shadowrootmode="open"><style>*,:after,:before{box-sizing:border-box}button,input,select,textarea{font:inherit}button{color:inherit;cursor:pointer}img{height:auto;max-width:100%}a{color:var(--color-link-normal)}[hidden]{display:none!important}</style><!--lit-part y6RVfKR7hws=--><mdn-compat-table query="css.properties.border-spacing" locale="en-US"><template shadowrootmode="open"><!----> <!--?lit$551644485$--><figure class="table-container">
+      <figure class="table-container-inner">
+        <!--?lit$551644485$--><div class="bc-on-github">
+      <a class="bc-github-link external external-icon" href="#" target="_blank" rel="noopener noreferrer" title="Signaler un problème avec ces données de compatibilité">
+        <!--?lit$551644485$-->Signaler des problèmes avec ces données de compatibilité</a><!--?lit$551644485$--> •
+            <a class="bc-github-link external external-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/mdn/browser-compat-data/tree/main/css/properties/border-spacing.json" title="Fichier : css/properties/border-spacing.json">
+              <!--?lit$551644485$-->Voir les données sur GitHub
+            </a>
+    </div>
+        <table class="bc-table bc-table-web" style="--compat-browser-count: 12">
+          <!--?lit$551644485$--><thead>
+      <!--?lit$551644485$--><tr class="bc-platforms">
+      <td></td>
+      <!--?lit$551644485$--><!----><th class="bc-platform bc-platform-desktop" colspan="5" title="desktop" style="grid-column: 2 / 7">
+          <span class="icon icon-desktop"></span>
+          <span class="visually-hidden"><!--?lit$551644485$-->desktop</span>
+        </th><!----><!----><th class="bc-platform bc-platform-mobile" colspan="7" title="mobile" style="grid-column: 7 / 14">
+          <span class="icon icon-mobile"></span>
+          <span class="visually-hidden"><!--?lit$551644485$-->mobile</span>
+        </th><!---->
+    </tr> <!--?lit$551644485$--><tr class="bc-browsers">
+      <td></td>
+      <!--?lit$551644485$--><!----><th class="bc-browser bc-browser-chrome">
+          <div class="bc-head-txt-label bc-head-icon-chrome">
+            <!--?lit$551644485$-->Chrome
+          </div>
+          <div class="bc-head-icon-symbol icon icon-chrome"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-edge">
+          <div class="bc-head-txt-label bc-head-icon-edge">
+            <!--?lit$551644485$-->Edge
+          </div>
+          <div class="bc-head-icon-symbol icon icon-edge"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-firefox">
+          <div class="bc-head-txt-label bc-head-icon-firefox">
+            <!--?lit$551644485$-->Firefox
+          </div>
+          <div class="bc-head-icon-symbol icon icon-firefox"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-opera">
+          <div class="bc-head-txt-label bc-head-icon-opera">
+            <!--?lit$551644485$-->Opera
+          </div>
+          <div class="bc-head-icon-symbol icon icon-opera"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-safari">
+          <div class="bc-head-txt-label bc-head-icon-safari">
+            <!--?lit$551644485$-->Safari
+          </div>
+          <div class="bc-head-icon-symbol icon icon-safari"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-chrome_android">
+          <div class="bc-head-txt-label bc-head-icon-chrome_android">
+            <!--?lit$551644485$-->Chrome Android
+          </div>
+          <div class="bc-head-icon-symbol icon icon-chrome"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-firefox_android">
+          <div class="bc-head-txt-label bc-head-icon-firefox_android">
+            <!--?lit$551644485$-->Firefox for Android
+          </div>
+          <div class="bc-head-icon-symbol icon icon-firefox"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-opera_android">
+          <div class="bc-head-txt-label bc-head-icon-opera_android">
+            <!--?lit$551644485$-->Opera Android
+          </div>
+          <div class="bc-head-icon-symbol icon icon-opera"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-safari_ios">
+          <div class="bc-head-txt-label bc-head-icon-safari_ios">
+            <!--?lit$551644485$-->Safari on iOS
+          </div>
+          <div class="bc-head-icon-symbol icon icon-safari"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-samsunginternet_android">
+          <div class="bc-head-txt-label bc-head-icon-samsunginternet_android">
+            <!--?lit$551644485$-->Samsung Internet
+          </div>
+          <div class="bc-head-icon-symbol icon icon-samsunginternet"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-webview_android">
+          <div class="bc-head-txt-label bc-head-icon-webview_android">
+            <!--?lit$551644485$-->WebView Android
+          </div>
+          <div class="bc-head-icon-symbol icon icon-webview"></div>
+        </th><!----><!----><th class="bc-browser bc-browser-webview_ios">
+          <div class="bc-head-txt-label bc-head-icon-webview_ios">
+            <!--?lit$551644485$-->WebView on iOS
+          </div>
+          <div class="bc-head-icon-symbol icon icon-safari"></div>
+        </th><!---->
+    </tr>
+    </thead> <!--?lit$551644485$--><tbody>
+      <!--?lit$551644485$--><!----><tr>
+        <th scope="row" class="bc-feature bc-feature-depth-0">
+          <!--?lit$551644485$--><div class="bc-table-row-header">
+          <!--?lit$551644485$--><!--?lit$551644485$--><code><!--?lit$551644485$-->border-spacing</code><!--?lit$551644485$--><!--?-->
+        </div>
+        </th>
+        <!--?lit$551644485$--><!----><td class="bc-support bc-browser-chrome bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-0" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Chrome – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Chrome – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Chrome</span>
+        <span class="bc-version-label" title="Chrome 1 — Date de sortie : 2008-12-11">
+          <!--?lit$551644485$--><!--?lit$551644485$-->1<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-0">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-edge bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-1" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Edge – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Edge – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Edge</span>
+        <span class="bc-version-label" title="Edge 12 — Date de sortie : 2015-07-29">
+          <!--?lit$551644485$--><!--?lit$551644485$-->12<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-1">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-firefox bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-2" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Firefox – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Firefox – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Firefox</span>
+        <span class="bc-version-label" title="Firefox 1 — Date de sortie : 2004-11-09">
+          <!--?lit$551644485$--><!--?lit$551644485$-->1<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-2">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-opera bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-3" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Opera – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Opera – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Opera</span>
+        <span class="bc-version-label" title="Opera 4 — Date de sortie : 2000-06-28">
+          <!--?lit$551644485$--><!--?lit$551644485$-->4<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-3">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-safari bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-4" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Safari – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Safari – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Safari</span>
+        <span class="bc-version-label" title="Safari 1 — Date de sortie : 2003-06-23">
+          <!--?lit$551644485$--><!--?lit$551644485$-->1<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-4">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-chrome_android bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-5" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Chrome Android – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Chrome Android – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Chrome Android</span>
+        <span class="bc-version-label" title="Chrome Android 18 — Date de sortie : 2012-06-27">
+          <!--?lit$551644485$--><!--?lit$551644485$-->18<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-5">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-firefox_android bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-6" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Firefox for Android – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Firefox for Android – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Firefox for Android</span>
+        <span class="bc-version-label" title="Firefox for Android 4 — Date de sortie : 2011-03-29">
+          <!--?lit$551644485$--><!--?lit$551644485$-->4<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-6">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-opera_android bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-7" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Opera Android – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Opera Android – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Opera Android</span>
+        <span class="bc-version-label" title="Opera Android 14 — Date de sortie : 2013-05-21">
+          <!--?lit$551644485$--><!--?lit$551644485$-->14<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-7">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-safari_ios bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-8" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Safari on iOS – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Safari on iOS – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div id="resultat-recherche">
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Safari on iOS</span>
+        <span class="bc-version-label" title="Safari on iOS 1 — Date de sortie : 2007-06-29">
+          <!--?lit$551644485$--><!--?lit$551644485$-->1<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-8">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-samsunginternet_android bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-9" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="Samsung Internet – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->Samsung Internet – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->Samsung Internet</span>
+        <span class="bc-version-label" title="Samsung Internet 1.0 — Date de sortie : 2013-04-27">
+          <!--?lit$551644485$--><!--?lit$551644485$-->1<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-9">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-webview_android bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-10" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="WebView Android – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->WebView Android – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->WebView Android</span>
+        <span class="bc-version-label" title="WebView Android 4.4 — Date de sortie : 2013-12-09">
+          <!--?lit$551644485$--><!--?lit$551644485$-->4.4<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-10">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!----><!----><td class="bc-support bc-browser-webview_ios bc-supports-yes bc-has-history">
+          <button type="button" aria-controls="timeline-0-11" aria-expanded="false" title="Toggle history">
+            <!--?lit$551644485$--><div class="bcd-cell-text-wrapper">
+      <div class="bcd-cell-icons">
+        <span class="icon-wrap">
+          <abbr class="
+                bc-level-yes
+                icon
+                icon-yes" title="WebView on iOS – Prise en charge complète">
+            <span class="bc-support-level"><!--?lit$551644485$-->WebView on iOS – Prise en charge complète</span>
+          </abbr>
+        </span>
+      </div>
+      <div class="bcd-cell-text-copy">
+        <span class="bc-browser-name"><!--?lit$551644485$-->WebView on iOS</span>
+        <span class="bc-version-label" title="WebView on iOS 1 — Date de sortie : 2007-06-29">
+          <!--?lit$551644485$--><!--?lit$551644485$-->1<!--?-->
+          <!--?lit$551644485$-->
+        </span>
+      </div>
+      <!--?lit$551644485$-->
+    </div>
+          </button>
+          <!--?lit$551644485$--><div class="timeline" tabindex="0" id="timeline-0-11">
+                <!--?lit$551644485$-->
+              </div>
+        </td><!---->
+      </tr><!---->
+    </tbody>
+        </table>
+      </figure>
+    </figure> <!--?lit$551644485$--><section class="bc-legend">
+      <h3 class="visually-hidden" id="Legend">
+        <!--?lit$551644485$-->Légende
+      </h3>
+      <p class="bc-legend-tip">
+        <!--?lit$551644485$-->Astuce : cliquer/appuyer sur une cellule pour obtenir plus d'informations.
+      </p>
+      <dl class="bc-legend-items-container"><!--?lit$551644485$--><!----><div class="bc-legend-item">
+            <dt class="bc-legend-item-dt">
+              <span class="bc-supports-yes bc-supports">
+                <abbr class="bc-level bc-level-yes icon icon-yes" title="Prise en charge complète">
+                  <span class="visually-hidden"><!--?lit$551644485$-->Prise en charge complète</span>
+                </abbr>
+              </span>
+            </dt>
+            <dd class="bc-legend-item-dd"><!--?lit$551644485$-->Prise en charge complète</dd>
+          </div><!----></dl>
+    </section> </template></mdn-compat-table><!--/lit-part--></template></mdn-compat-table-lazy>
+  </section><section class="content-section" aria-labelledby="voir_aussi">
+    <!--lit-part el4n9CZvmMQ=--><!--lit-node 0--><h2 id="voir_aussi" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#voir_aussi">Voir aussi</a></h2><!--/lit-part-->
+    <ul>
+<li>Les propriétés <a href="/fr/docs/Web/CSS/Reference/Properties/border-collapse"><code>border-collapse</code></a>, <a href="/fr/docs/Web/CSS/Reference/Properties/border-style"><code>border-style</code></a></li>
+<li>La propriété <code>border-spacing</code> modifie l'apparence de l'élément HTML <a href="/fr/docs/Web/HTML/Reference/Elements/table"><code>&lt;table&gt;</code></a>.</li>
+<li>Le module <a href="/fr/docs/Web/CSS/Guides/Table">de tableau CSS</a></li>
+</ul>
+  </section> 
+      <section class="content-section article-footer" aria-labelledby="feedback">
+        <div class="article-footer__inner">
+          <div class="article-footer__svg-container"><!--lit-part +YwD1wS6984=--><svg xmlns="http://www.w3.org/2000/svg" width="162" height="162" fill="none" viewBox="0 0 162 162"><mask id="b" fill="#fff"><path d="M97.203 47.04c8.113-7.886 18.004-13.871 28.906-17.492a78 78 0 0 1 33.969-3.39c11.443 1.39 22.401 5.295 32.024 11.411s17.656 14.28 23.476 23.86c5.819 9.579 9.269 20.318 10.083 31.385a69.85 69.85 0 0 1-5.387 32.44c-4.358 10.272-11.115 19.443-19.747 26.801-8.632 7.359-18.908 12.709-30.034 15.637l-6.17-21.698c7.666-2.017 14.746-5.703 20.694-10.773 5.948-5.071 10.603-11.389 13.606-18.467a48.14 48.14 0 0 0 3.712-22.352c-.561-7.625-2.938-15.025-6.948-21.625s-9.544-12.226-16.175-16.44-14.181-6.904-22.065-7.863a53.75 53.75 0 0 0-23.405 2.336c-7.513 2.495-14.327 6.62-19.918 12.053z"></path></mask><path stroke="url(#a)" stroke-dasharray="6, 6" stroke-width="2" d="M97.203 47.04c8.113-7.886 18.004-13.871 28.906-17.492a78 78 0 0 1 33.969-3.39c11.443 1.39 22.401 5.295 32.024 11.411s17.656 14.28 23.476 23.86c5.819 9.579 9.269 20.318 10.083 31.385a69.85 69.85 0 0 1-5.387 32.44c-4.358 10.272-11.115 19.443-19.747 26.801-8.632 7.359-18.908 12.709-30.034 15.637l-6.17-21.698c7.666-2.017 14.746-5.703 20.694-10.773 5.948-5.071 10.603-11.389 13.606-18.467a48.14 48.14 0 0 0 3.712-22.352c-.561-7.625-2.938-15.025-6.948-21.625s-9.544-12.226-16.175-16.44-14.181-6.904-22.065-7.863a53.75 53.75 0 0 0-23.405 2.336c-7.513 2.495-14.327 6.62-19.918 12.053z" mask="url(#b)" style="stroke:url(#a)" transform="translate(-63.992 -25.587)"></path><ellipse cx="8.066" cy="111.597" fill="currentColor" rx="53.677" ry="53.699" transform="matrix(.71707 -.697 .7243 .6895 0 0)"></ellipse><g clip-path="url(#c)" transform="translate(-63.992 -25.587)"><path fill="#9abff5" d="m144.256 137.379 32.906 12.434a4.41 4.41 0 0 1 2.559 5.667l-9.326 24.679a4.41 4.41 0 0 1-5.667 2.559l-8.226-3.108-2.332 6.17c-.466 1.233-.375 1.883-1.609 1.417l-2.253-.527c-.411-.155-.95-.594-1.206-1.161l-4.734-10.484-12.545-4.741a4.41 4.41 0 0 1-2.559-5.667l9.325-24.679a4.41 4.41 0 0 1 5.667-2.559m9.961 29.617 8.227 3.108 3.264-8.638-.498-6.768-4.113-1.555.548 7.258-4.319-1.632zm-12.339-4.663 8.226 3.108 3.264-8.637-.498-6.769-4.113-1.554.548 7.257-4.319-1.632z"></path></g><g clip-path="url(#d)" transform="translate(-63.992 -25.587)"><path fill="#81b0f3" d="M135.35 60.136 86.67 41.654c-3.346-1.27-7.124.428-8.394 3.775L64.414 81.938c-1.27 3.347.428 7.125 3.774 8.395l12.17 4.62-3.465 9.128c-.693 1.826-1.432 2.457.394 3.15l3.014 1.625c.609.231 1.637.274 2.477-.104l15.53-6.983 18.56 7.047c3.346 1.27 7.124-.428 8.395-3.775l13.862-36.51c1.27-3.346-.428-7.124-3.775-8.395M95.261 83.207l-12.17-4.62 4.852-12.779 7.19-7.017 6.085 2.31-7.725 7.51 6.389 2.426zm18.255 6.93-12.17-4.62 4.852-12.778 7.189-7.017 6.085 2.31-7.725 7.51 6.39 2.426z"></path></g><defs><clipPath id="c"><path fill="#fff" d="m198.638 146.586-65.056-24.583-24.583 65.057 65.056 24.582z"></path></clipPath><clipPath id="d"><path fill="#fff" d="m66.438 14.055 96.242 36.54-36.54 96.243-96.243-36.54z"></path></clipPath><linearGradient id="a" x1="97.203" x2="199.995" y1="47.04" y2="152.793" gradientUnits="userSpaceOnUse"><stop stop-color="#086DFC"></stop><stop offset=".246" stop-color="#2C81FA"></stop><stop offset=".516" stop-color="#5497F8"></stop><stop offset=".821" stop-color="#80B0F6"></stop><stop offset="1" stop-color="#9ABFF5"></stop></linearGradient></defs></svg><!--/lit-part--></div>
+          <h2 id="feedback">Help improve MDN</h2>
+          <mdn-content-feedback locale="fr"><template shadowrootmode="open"><style>.content-feedback{border:none;margin:0 0 .25rem;padding:0}.content-feedback>label{display:block;margin-bottom:.25rem}.content-feedback .thank-you{display:block;margin-bottom:calc(2.75rem + 2px)}.content-feedback mdn-button{flex:1;min-width:0}.content-feedback--buttons{display:inline-flex;gap:.75rem;margin:.25rem 0}.content-feedback--radios{align-items:center;display:flex;gap:.25rem;margin:.25rem 0}</style><!--lit-part wnhNI9MhleE=--><fieldset class="content-feedback">
+      <!--lit-part abqF9JTZmM8=--><label><!--lit-part-->Cette page vous a-t-elle été utile ?<!--/lit-part-->
+      </label>
+      <div class="content-feedback--buttons">
+        <!--lit-node 3--><mdn-button data-vote="yes" variant="secondary" action="positive"><template shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-80);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-20),var(--color-gray-80))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-20);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-50),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-10);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-10))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-gray-20);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-50),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-10);background-color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-10))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10))}}.button[disabled]{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-gray-40))!important;cursor:default;--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-i691h3rksi" data-variant="secondary" data-action="positive" part="button">
+          <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part GjE5cW6UBoM=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M7 10v12m8-16.12L14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88"></path></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-i691h3rksi" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template>
+          <!--lit-part-->Yes<!--/lit-part-->
+        </mdn-button>
+        <!--lit-node 5--><mdn-button data-vote="no" variant="secondary" action="negative"><template shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-80);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-20),var(--color-gray-80))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-20);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-50),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-10);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-10))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-gray-20);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-50),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-10);background-color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-10))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10))}}.button[disabled]{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-gray-40))!important;cursor:default;--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part ds8wn4pKxlc=-->
+        <!--lit-node 0--><button class="button" aria-labelledby="label-cojybitcw1l" data-variant="secondary" data-action="negative" part="button">
+          <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part IggRHjbPj/Q=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 14V2M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88"></path></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
+    <!--lit-node 0--><span id="label-cojybitcw1l" class="label" part="label"><!--lit-part Pz0gobCCM4E=--><slot></slot><!--/lit-part--></span>
+  <!--/lit-part--><!--/lit-part-->
+        </button>
+      <!--/lit-part--></template>
+          <!--lit-part-->No<!--/lit-part-->
+        </mdn-button>
+      </div><!--/lit-part-->
+    </fieldset><!--/lit-part--></template></mdn-content-feedback>
+          <a class="article-footer__contribute" href="/fr/docs/MDN/Community/Getting_started">Learn how to contribute</a> <p class="article-footer__last-modified">
+    Cette page a été modifiée le <time datetime="2026-02-01T00:14:59.000Z">1 févr. 2026</time> par les <a href="/fr/docs/Web/CSS/Reference/Properties/border-spacing/contributors.txt">contributeurs du MDN</a>.
+  </p> <div class="article-footer__links">
+    <a class="external" href="https://github.com/mdn/translated-content/blob/main/files/fr/web/css/reference/properties/border-spacing/index.md?plain=1" title="Dossier : fr/web/css/reference/properties/border-spacing (Ouvre un onglet)" target="_blank" rel="noopener">View this page on GitHub</a> • <a class="external" href="https://github.com/mdn/translated-content/issues/new?template=page-report-fr.yml&amp;mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing&amp;metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60fr%2Fweb%2Fcss%2Freference%2Fproperties%2Fborder-spacing%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Ffr%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fborder-spacing%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Ftranslated-content%2Fblob%2Fmain%2Ffiles%2Ffr%2Fweb%2Fcss%2Freference%2Fproperties%2Fborder-spacing%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Ftranslated-content%2Fcommit%2F0fa066cfe5af4640e1b4ff8e1bd25c41d0f734b5%0A*+Document+last+modified%3A+2026-02-01T00%3A14%3A59.000Z%0A%0A%3C%2Fdetails%3E" title="This will take you to GitHub to file a new issue." target="_blank" rel="noopener">Report a problem with this content</a>
+  </div>
+        </div>
+      </section>
+    
+          </div>
+        </div>
+
+
 
 </body>
 <script src="script.js"></script>
